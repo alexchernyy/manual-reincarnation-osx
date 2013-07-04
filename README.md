@@ -1,4 +1,4 @@
-manual-reincarnation
+Manual Reincarnation
 ====================
 
-How to relaunch OS X sandboxed app?
+How to relaunch OS X sandboxed app? The way with helper process shown.
