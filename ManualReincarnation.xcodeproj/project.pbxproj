@@ -371,7 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = ManualReincarnation/ManualReincarnation.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ManualReincarnation/ManualReincarnation-Prefix.pch";
@@ -385,7 +385,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = ManualReincarnation/ManualReincarnation.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ManualReincarnation/ManualReincarnation-Prefix.pch";
@@ -432,6 +432,7 @@
 				9CFD90CC1785937800B0CB5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CFD90DB178593A400B0CB5C /* Build configuration list for PBXNativeTarget "RelaunchHelper" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +441,7 @@
 				9CFD90DD178593A400B0CB5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
