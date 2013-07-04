@@ -16,9 +16,9 @@
 		9CFD90D3178593A400B0CB5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CFD90D2178593A400B0CB5C /* Foundation.framework */; };
 		9CFD90D6178593A400B0CB5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD90D5178593A400B0CB5C /* main.m */; };
 		9CFD90DA178593A400B0CB5C /* RelaunchHelper.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9CFD90D9178593A400B0CB5C /* RelaunchHelper.1 */; };
-		9CFD90E0178593C300B0CB5C /* RelaunchHelper in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD90D1178593A400B0CB5C /* RelaunchHelper */; };
 		9CFD90E3178595C500B0CB5C /* NSApplication+Relaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD90E2178595C500B0CB5C /* NSApplication+Relaunch.m */; };
 		9CFD90E4178596E900B0CB5C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CFD90B01785937700B0CB5C /* Cocoa.framework */; };
+		9CFD90E617859FD900B0CB5C /* RelaunchHelper in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD90D1178593A400B0CB5C /* RelaunchHelper */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -242,7 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CFD90E0178593C300B0CB5C /* RelaunchHelper in Resources */,
+				9CFD90E617859FD900B0CB5C /* RelaunchHelper in Resources */,
 				9CFD90BB1785937700B0CB5C /* InfoPlist.strings in Resources */,
 				9CFD90C11785937700B0CB5C /* Credits.rtf in Resources */,
 				9CFD90C71785937800B0CB5C /* MainMenu.xib in Resources */,
@@ -371,7 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = ManualReincarnation/ManualReincarnation.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ManualReincarnation/ManualReincarnation-Prefix.pch";
@@ -385,7 +385,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = ManualReincarnation/ManualReincarnation.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ManualReincarnation/ManualReincarnation-Prefix.pch";
@@ -401,6 +401,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RelaunchHelper/RelaunchHelper-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -410,6 +411,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RelaunchHelper/RelaunchHelper-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
